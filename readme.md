@@ -17,6 +17,8 @@
 
 继续在菜单File(菜单)->Settings(设置)->Install(安装)，搜索**language-verilog**并安装。
 搜索**linter-veriloghdl**并安装，linter-veriloghdl在安装过程中会提示你是否安装依赖Linter，选择是。  
+![](imgs/2.png)   
+
 等待Linter安装完成，配置linter-veriloghdl。在设置->扩展中选择linter-veriloghdl的设置，然后如下图，选择iverilog为compiler，iverilog Executable填入**iverilog路径\bin\iverilog.exe**，Options填-i(因为在使用Linter检测语法时，编译器会对没有找到的Module报错，这个我们需要忽略)。  
 ![](imgs/3.png)   
 
